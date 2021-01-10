@@ -20,4 +20,6 @@ s = 0
 for i in range(m + 1, M, 1):
     print(i)
     s += i
+mean = float(s)/(M - m - 1)
 print("their sum is:", s)
+print("their mean is:", mean)
