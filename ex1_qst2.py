@@ -16,7 +16,7 @@ else:
     M = b
 if (a >= 0 and b >= 0):
     # seperate the result output
-    print("odd numbers between", a, "and", b, "are:")
+    print("odd numbers between", m, "and", M, "are:")
     # initialize a sum variable with 0
     s = 0
     # initialize the count variable
