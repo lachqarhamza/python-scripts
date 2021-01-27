@@ -1,4 +1,4 @@
-def read_array_10():
+def read_array_10_v1():
     # init the list
     l = []
     i = 0
@@ -21,4 +21,4 @@ def read_array_10():
     # print the list
     print(l)
 # to test the function uncomment the line bellow
-# read_array_10()
+# read_array_10_v1()
