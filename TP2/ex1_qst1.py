@@ -21,4 +21,4 @@ def read_array_10():
     # print the list
     print(l)
 # to test the function uncomment the line bellow
-# read_array_10(i)
+# read_array_10()
