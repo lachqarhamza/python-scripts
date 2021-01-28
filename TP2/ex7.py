@@ -12,4 +12,4 @@ def pascal(d):
         temp = []
         print("\n")
 # uncomment the line bellow to test this function
-pascal(10)
+# pascal(10)
