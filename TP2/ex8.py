@@ -21,4 +21,4 @@ def is_janus(n):
     else:
         print(temp, "isn't janus")
 # uncomment the line bellow for test
-is_janus(111211)
+# is_janus(111211)
