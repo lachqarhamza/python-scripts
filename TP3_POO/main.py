@@ -1,5 +1,7 @@
 from Point import Point
+from TroisPoints import TroisPoints
 
+# test Point class ---------------------------
 # test constructor
 testPoint = Point(1, 2)
 
@@ -17,3 +19,16 @@ print("distance is: ", d2)
 m = testPoint.calculer_milieu(point2)
 m.__str__()
 
+# test TroisPoints class ----------------------
+# test the constructor
+a = Point(0, 0)
+b = Point(1, 1)
+c = Point(2, 3)
+
+tp = TroisPoints(a, b, c)
+
+# test sont alignes
+print(tp.sont_alignes())
+
+# test est_isocele function
+print(tp.est_isocele())
