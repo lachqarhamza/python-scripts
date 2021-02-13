@@ -32,3 +32,12 @@ print(tp.sont_alignes())
 
 # test est_isocele function
 print(tp.est_isocele())
+
+# test the staticmethods
+# test the distance calculation
+print("testing static method to calculate distance: ", a.calculer_distance_static(b, c))
+
+# test te middle calculation
+middle = a.calculer_milieu_static(b, c)
+print("testing static method to calculate the middle: ")
+middle.__str__()

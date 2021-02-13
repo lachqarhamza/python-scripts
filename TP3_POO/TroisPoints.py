@@ -1,4 +1,5 @@
 from Point import Point
+from math import pow, sqrt
 
 class TroisPoints:
     __premier = Point(0, 0)
