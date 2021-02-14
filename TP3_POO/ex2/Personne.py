@@ -2,28 +2,28 @@ class Personne:
     def __init__(self, __nom, __sexe, __adresses):
         self.__nom = __nom
         self.__sexe = __sexe
-        self.adresse = __adresses
+        self.__adresse = __adresses
     
     @property
-    def __nom(self):
-        return self.___nom
+    def nom(self):
+        return self.__nom
 
     @property
-    def __sexe(self):
-        return self.___sexe
+    def sexe(self):
+        return self.__sexe
 
     @property
-    def __adresses(self):
-        return self.___adresses
+    def adresses(self):
+        return self.__adresses
 
-    @__nom.setter
-    def __nom(self, value):
-        self.___nom = value
+    @nom.setter
+    def nom(self, value):
+        self.__nom = value
 
-    @__sexe.setter
-    def __sexe(self, value):
-        self.___sexe = value
+    @sexe.setter
+    def sexe(self, value):
+        self.__sexe = value
 
-    @__adresses.setter
-    def __adresses(self, value):
-        self.___adresses = value
+    @adresses.setter
+    def adresses(self, value):
+        self.__adresses = value

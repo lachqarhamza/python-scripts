@@ -39,8 +39,8 @@ print("---- test find_by_nom ----")
 print("name exist: ", lp.find_by_nom("name 1"))
 print("name doesn't exist: ", lp.find_by_nom("Mourad"))
 
-test exists_code_postal function
+#test exists_code_postal function
 print("---- test exists_code_postal ----")
-print("pc exist", lp.exists_code_postal("43000"))
-print("pc doesn't exist", lp.exists_code_postal("555"))
+#print("pc exist", lp.exists_code_postal("43000"))
+#print("pc doesn't exist", lp.exists_code_postal("555"))
 
