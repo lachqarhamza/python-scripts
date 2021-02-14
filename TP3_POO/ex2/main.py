@@ -16,11 +16,11 @@ adresses.append(a3)
 
 # test of Personne class
 # creation of a list of type personne
-p1 = Personne("Hakima", "F", adresses)
-p2 = Personne("Hamza", "M", adresses)
-p3 = Personne("Salma", "F", adresses)
-p4 = Personne("Ayoub", "M", adresses)
-p5 = Personne("Amal", "F", adresses)
+p1 = Personne("name 1", "F", adresses)
+p2 = Personne("name 2", "M", adresses)
+p3 = Personne("name 3", "F", adresses)
+p4 = Personne("name 4", "M", adresses)
+p5 = Personne("name 5", "F", adresses)
 
 personnes = []
 personnes.append(p1)
@@ -36,11 +36,11 @@ lp = ListePersonnes(personnes)
 
 # test find_by_nom function
 print("---- test find_by_nom ----")
-print("name exist: ", lp.find_by_nom("Hakima"))
-#print("name doesn't exist: ", lp.find_by_nom("Mourad"))
+print("name exist: ", lp.find_by_nom("name 1"))
+print("name doesn't exist: ", lp.find_by_nom("Mourad"))
 
-# test exists_code_postal function
-#print("---- test exists_code_postal ----")
-#print("pc exist", lp.exists_code_postal("43000"))
-#print("pc doesn't exist", lp.exists_code_postal("555"))
+test exists_code_postal function
+print("---- test exists_code_postal ----")
+print("pc exist", lp.exists_code_postal("43000"))
+print("pc doesn't exist", lp.exists_code_postal("555"))
 
