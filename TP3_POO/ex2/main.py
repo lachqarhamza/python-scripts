@@ -23,5 +23,24 @@ p4 = Personne("Ayoub", "M", adresses)
 p5 = Personne("Amal", "F", adresses)
 
 personnes = []
+personnes.append(p1)
+personnes.append(p2)
+personnes.append(p3)
+personnes.append(p4)
+personnes.append(p5)
 
+# test of ListePersonnes class
+
+# test the constructor
+lp = ListePersonnes(personnes)
+
+# test find_by_nom function
+print("---- test find_by_nom ----")
+print("name exist: ", lp.find_by_nom("Hakima"))
+#print("name doesn't exist: ", lp.find_by_nom("Mourad"))
+
+# test exists_code_postal function
+#print("---- test exists_code_postal ----")
+#print("pc exist", lp.exists_code_postal("43000"))
+#print("pc doesn't exist", lp.exists_code_postal("555"))
 

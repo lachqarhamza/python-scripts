@@ -4,11 +4,11 @@ class ListePersonnes:
 
     @property
     def __personnes(self):
-        return self.__personnes
+        return self.___personnes
 
     @__personnes.setter
     def __personnes(self, value):
-        self.__personnes = value
+        self.___personnes = value
 
     def find_by_nom(self, s):
         for p in self.__personnes:
