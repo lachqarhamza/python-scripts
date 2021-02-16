@@ -5,26 +5,25 @@ class Adresse:
         self.__code_postal = __code_postal
 
     @property
-    def __rue(self):
-        return self.___rue
+    def rue(self):
+        return self.__rue
 
     @property
-    def __ville(self):
-        return self.___ville
+    def ville(self):
+        return self.__ville
 
     @property
-    def __code_postal(self):
-        return self.___code_postal
+    def code_postal(self):
+        return self.__code_postal
 
-    @__rue.setter
-    def __rue(self, value):
-        self.___rue = value
+    @rue.setter
+    def rue(self, value):
+        self.__rue = value
 
-    @__ville.setter
-    def __ville(self, value):
-        self.___ville = value
+    @ville.setter
+    def ville(self, value):
+        self.__ville = value
 
-    @__code_postal.setter
-    def __code_postal(self, value):
-        self.___code_postal = value
-
+    @code_postal.setter
+    def code_postal(self, value):
+        self.__code_postal = value
